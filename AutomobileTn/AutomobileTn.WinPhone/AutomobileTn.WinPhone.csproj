@@ -123,7 +123,30 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\AlfaRomeo.png" />
+    <Content Include="Images\Audi.png" />
+    <Content Include="Images\BMW.png" />
+    <Content Include="Images\Chevrolet.png" />
+    <Content Include="Images\Citroën.png" />
+    <Content Include="Images\Dacia.png" />
+    <Content Include="Images\Fiat.png" />
+    <Content Include="Images\Ford.png" />
+    <Content Include="Images\Hyundai.png" />
+    <Content Include="Images\Jaguar.png" />
+    <Content Include="Images\KIA.png" />
+    <Content Include="Images\Lancia.png" />
+    <Content Include="Images\LandRover.png" />
+    <Content Include="Images\Mahindra.png" />
+    <Content Include="Images\Mazda.png" />
+    <Content Include="Images\Mercedes.png" />
+    <Content Include="Images\Mini.png" />
+    <Content Include="Images\Mitsubishi.png" />
+    <Content Include="Images\Nissan.png" />
+    <Content Include="Images\Opel.png" />
+    <Content Include="Images\Peugeot.png" />
     <Content Include="README_FIRST.txt" />
+    <Content Include="Images\Renault.png" />
+    <Content Include="Images\Seat.png" />
     <Content Include="SplashScreenImage.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -146,11 +169,15 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\Ssangyong.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
+    <Content Include="Images\Toyota.png" />
+    <Content Include="Images\Volkswagen.png" />
+    <Content Include="Images\Volvo.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">

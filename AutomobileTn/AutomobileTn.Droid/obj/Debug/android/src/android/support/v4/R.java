@@ -11,6 +11,33 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static int icon=0x7f020000;
+        public static int =0x7f020004;
+        public static int alfaromeo=0x7f020000;
+        public static int audi=0x7f020001;
+        public static int bmw=0x7f020002;
+        public static int chevrolet=0x7f020003;
+        public static int dacia=0x7f020005;
+        public static int fiat=0x7f020006;
+        public static int ford=0x7f020007;
+        public static int hyundai=0x7f020008;
+        public static int icon=0x7f020009;
+        public static int jaguar=0x7f02000a;
+        public static int kia=0x7f02000b;
+        public static int lancia=0x7f02000c;
+        public static int landrover=0x7f02000d;
+        public static int mahindra=0x7f02000e;
+        public static int mazda=0x7f02000f;
+        public static int mercedes=0x7f020010;
+        public static int mini=0x7f020011;
+        public static int mitsubishi=0x7f020012;
+        public static int nissan=0x7f020013;
+        public static int opel=0x7f020014;
+        public static int peugeot=0x7f020015;
+        public static int renault=0x7f020016;
+        public static int seat=0x7f020017;
+        public static int ssangyong=0x7f020018;
+        public static int toyota=0x7f020019;
+        public static int volkswagen=0x7f02001a;
+        public static int volvo=0x7f02001b;
     }
 }

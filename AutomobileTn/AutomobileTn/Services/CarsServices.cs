@@ -2687,9 +2687,9 @@ namespace AutomobileTn.Services
 			try
 			{
 
-				//var xmlContent = await httpClient.GetStringAsync("http://www.automobile.tn/rss/neuf.php");
+				var xmlContent = await httpClient.GetStringAsync("http://www.automobile.tn/rss/neuf.php");
 
-				var xmlContent = _dataXml;
+				//var xmlContent = _dataXml;
 
 				if (string.IsNullOrEmpty(xmlContent))
 				{

@@ -1,3 +1,4 @@
+D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\obj\Debug\AutomobileTn.Android.csprojResolveAssemblyReference.cache
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.dll
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.pdb
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.dll.mdb
@@ -13,11 +14,9 @@ D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\bin\Debu
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.dll.mdb
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\bin\Debug\Xamarin.Forms.Core.xml
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
-D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\obj\Debug\AutomobileTn.Android.csprojResolveAssemblyReference.cache
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\obj\Debug\AutomobileTn.Droid.dll
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\obj\Debug\AutomobileTn.Droid.pdb
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\obj\Debug\android\bin\AutomobileTn.Droid.apk
-D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable\icon.png
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-hdpi\icon.png
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xhdpi\icon.png
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xxhdpi\icon.png

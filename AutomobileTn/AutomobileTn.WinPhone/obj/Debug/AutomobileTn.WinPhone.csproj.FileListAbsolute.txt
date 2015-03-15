@@ -15,10 +15,14 @@ D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\D
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\Xamarin.Forms.Core.dll
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\Xamarin.Forms.Platform.WP8.dll
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\System.Net.Http.dll
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\System.Windows.Interactivity.dll
+D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\System.Net.Http.Primitives.dll
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\AutomobileTn.pdb
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\Xamarin.Forms.Core.xml
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\System.Net.Http.xml
+D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\System.Net.Http.Primitives.xml
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
@@ -88,7 +92,3 @@ D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\obj\D
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\obj\Debug\AutomobileTn.WinPhone.dll
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\obj\Debug\AutomobileTn.WinPhone.pdb
 D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\obj\Debug\XapCacheFile.xml
-D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\System.Net.Http.dll
-D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\System.Net.Http.Primitives.dll
-D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\System.Net.Http.xml
-D:\Projects\AutomobileTn.CrossPlatforms\AutomobileTn\AutomobileTn.WinPhone\Bin\Debug\System.Net.Http.Primitives.xml

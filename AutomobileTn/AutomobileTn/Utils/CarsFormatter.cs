@@ -23,7 +23,7 @@ namespace AutomobileTn.Utils
 
 		private static int GetPriceFromDescription(string carDescription)
 		{
-			var priceString = carDescription.Replace("Prix: A partir de ", "").Replace(" DT<br>", "").Replace(" ", "");
+			var priceString = carDescription.Replace("Prix : A partir de ", "").Replace(" DT<br>", "").Replace(" ", "");
 
 			return Convert.ToInt32(priceString);
 		}

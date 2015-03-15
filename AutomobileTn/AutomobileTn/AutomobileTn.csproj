@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Converters\IntToPriceConverter.cs" />
+    <Compile Include="Converters\StringToImageUrlConverter.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\Tweet.cs" />
     <Compile Include="Models\Video.cs" />
@@ -43,6 +44,7 @@
     <Compile Include="Services\CarsServices.cs" />
     <Compile Include="Services\TweetsService.cs" />
     <Compile Include="Services\VideosService.cs" />
+    <Compile Include="UI\Grouping.cs" />
     <Compile Include="Utils\CarsFormatter.cs" />
     <Compile Include="Utils\Constants.cs" />
     <Compile Include="Utils\RelayCommand.cs" />
