@@ -28,6 +28,11 @@
   </ContentPage.Resources>
 
   <StackLayout VerticalOptions="FillAndExpand">
+    
+    <ActivityIndicator IsRunning="{Binding IsBusy}"
+                       IsVisible="{Binding IsBusy}"/>
+    
+    <!--<ProgressBar Progress="0.8"></ProgressBar>-->    
 
     <ListView ItemsSource="{Binding CarsGrouped}"
 				  IsGroupingEnabled="True"

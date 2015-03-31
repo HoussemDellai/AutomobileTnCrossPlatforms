@@ -4,7 +4,7 @@
              x:Class="AutomobileTn.Views.VideosView"
              Title="Videos">
 
-  <ListView ItemsSource="{Binding VideosList}" >
+  <ListView ItemsSource="{Binding VideosList}" ItemTapped="ListView_OnItemTapped">
 
     <ListView.ItemTemplate>
       <DataTemplate>

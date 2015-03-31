@@ -27,3 +27,4 @@ E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\uploadflags.txt
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.dll.mdb
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\layout\videoslayout.xml
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.dll.config

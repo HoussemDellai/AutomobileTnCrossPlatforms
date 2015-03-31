@@ -33,5 +33,11 @@ namespace AutomobileTn.Views
 
             BindingContext = vm;
         }
+
+        private async  void ListView_OnItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var video = e.Item as Video;
+            await Navigation.PushAsync(new VideoPlayerView(video));
+        }
     }
 }

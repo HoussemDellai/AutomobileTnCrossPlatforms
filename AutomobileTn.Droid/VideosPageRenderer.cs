@@ -32,6 +32,7 @@ namespace AutomobileTn.Droid
 			var activity = this.Context as Activity;
 
 			var videosActivity = new Intent (activity, typeof (VideosActivity));
+
 			activity.StartActivity (videosActivity);
 		}
 	}

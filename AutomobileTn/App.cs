@@ -24,7 +24,9 @@ namespace AutomobileTn
             tabbedPage.Children.Add(new TweetsView());
             tabbedPage.Children.Add(new VideosView());
 
-            MainPage = tabbedPage;
+            var np = new NavigationPage(tabbedPage);
+
+            MainPage = np;
 
 			//MainPage = new MainView();
 

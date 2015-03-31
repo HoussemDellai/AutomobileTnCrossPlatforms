@@ -10,13 +10,22 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using AutomobileTn.Views;
+using Xamarin.Forms;
 
 namespace AutomobileTn.Droid
 {
 	[Activity (Label = "Videos")]			
 	public class VideosActivity : Activity
 	{
-		protected override void OnCreate (Bundle bundle)
+	    protected override void OnPostCreate(Bundle savedInstanceState)
+	    {
+            MessagingCenter.Subscribe<VideoPlayerView>(this, "Hi", OnMessageReceived);
+
+            base.OnPostCreate(savedInstanceState);
+	    }
+
+	    protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
@@ -36,6 +45,11 @@ namespace AutomobileTn.Droid
             //	Finish(); // back to the previous activity
             //};
         }
+
+	    private void OnMessageReceived(VideoPlayerView obj)
+	    {
+	        
+	    }
 	}
 }
 

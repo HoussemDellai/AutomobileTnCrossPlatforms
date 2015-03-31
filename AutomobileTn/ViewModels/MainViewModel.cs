@@ -44,6 +44,7 @@ namespace AutomobileTn.ViewModels
         }
 
         private ObservableCollection<Grouping<string, Car>> _carsGrouped;
+        private bool _isBusy;
 
         public ObservableCollection<Grouping<string, Car>> CarsGrouped
         {
@@ -51,6 +52,16 @@ namespace AutomobileTn.ViewModels
             set
             {
                 _carsGrouped = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool IsBusy
+        {
+            get { return _isBusy; }
+            set
+            {
+                _isBusy = value;
                 OnPropertyChanged();
             }
         }
@@ -75,6 +86,8 @@ namespace AutomobileTn.ViewModels
 
         private async Task DownloadDataAsync()
         {
+            IsBusy = true;
+
             var dataServices = new CarsServices();
             var carsList = await dataServices.GetCarsCollectionAsync();
 
@@ -98,6 +111,8 @@ namespace AutomobileTn.ViewModels
 
             //create a new collection of groups 
             CarsGrouped = new ObservableCollection<Grouping<string, Car>>(sorted);
+
+            IsBusy = false;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
