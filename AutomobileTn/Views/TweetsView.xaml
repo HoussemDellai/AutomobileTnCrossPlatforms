@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AutomobileTn.Views.TweetsView"
+             Title="Tweets">
+
+  <StackLayout VerticalOptions="FillAndExpand">
+
+    <ListView ItemsSource="{Binding TweetsList}">
+
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Grid Padding="6,4,12,4"
+                  BackgroundColor="Transparent">
+              <Grid.RowDefinitions>
+                <RowDefinition Height="160"></RowDefinition>
+                <!--<RowDefinition Height="25"></RowDefinition>-->
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+
+              <Image Source="{Binding ImageUrl}"
+                     Grid.Column="0"
+                     Aspect="AspectFill"/>
+
+              <Label Text="{Binding Text}"
+                     TextColor="#fffa28d4"
+                     Grid.Column="1">
+                <Label.FontSize>
+                  <OnPlatform x:TypeArguments="x:Double"
+                              iOS="40"
+                              Android="16"
+                              WinPhone="30"/>
+                </Label.FontSize>
+                <Label.TextColor>
+                  <OnPlatform x:TypeArguments="Color"
+                              iOS="#fffa28d4"
+                              Android="#ffffffff"
+                              WinPhone="#ffffffff"/>
+                </Label.TextColor>
+              </Label>
+
+              <!--<Label Text="{Binding Price}"
+								   Font="Medium"
+								   LineBreakMode="TailTruncation"
+								   Grid.Row="1"
+								   Grid.Column="1"
+								   VerticalOptions="Start"
+								   HorizontalOptions="End"
+								   TextColor="Teal"/>-->
+            </Grid>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+  </StackLayout>
+
+
+</ContentPage>

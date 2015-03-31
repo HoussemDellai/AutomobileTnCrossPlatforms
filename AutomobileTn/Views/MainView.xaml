@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AutomobileTn.Views.MainView"
+			 xmlns:Converters="clr-namespace:AutomobileTn.Converters;assembly=AutomobileTn"
+			 Title="AutomobileTn">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <OnPlatform x:Key="boxSize"
+						x:TypeArguments="x:Double"
+						iOS="50"
+						Android="50"
+						WinPhone="75" />
+
+      <!-- This is only an issue on the iPhone; Android and 
+           WinPhone auto size the row height to the contents. -->
+      <OnPlatform x:Key="rowHeight"
+						x:TypeArguments="x:Int32"
+						iOS="60"
+						Android="60"
+						WinPhone="85" />
+
+      <Converters:IntToPriceConverter x:Key="IntToPriceConverter" />
+      <Converters:StringToImageUrlConverter x:Key="StringToImageUrlConverter" />
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <StackLayout VerticalOptions="FillAndExpand">
+
+    <ListView ItemsSource="{Binding CarsGrouped}"
+				  IsGroupingEnabled="True"
+				  GroupDisplayBinding="{Binding Key}"
+				  GroupShortNameBinding="{Binding Key}"
+				  HasUnevenRows="True"
+          >
+
+      <ListView.GroupHeaderTemplate>
+        <DataTemplate>
+          <ViewCell Height="40" >
+            <StackLayout VerticalOptions="FillAndExpand"
+									       Padding="5"
+									       BackgroundColor="Teal"
+									       WidthRequest="600" >
+              <Label Text="{Binding Key}"
+								   TextColor="White"
+								   VerticalOptions="Center"
+								   TranslationX="2">
+                <Label.FontSize>
+                  <OnPlatform x:TypeArguments="x:Double"
+												iOS="40"
+												Android="20"
+												WinPhone="20"/>
+                </Label.FontSize>
+              </Label>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.GroupHeaderTemplate>
+
+      <!--<ListView.RowHeight>
+				<OnPlatform x:TypeArguments="x:Int32"
+							iOS="60"
+							Android="80"
+							WinPhone="120" />
+			</ListView.RowHeight>-->
+
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Grid Padding="6,4,12,4"
+							  BackgroundColor="Transparent">
+              <Grid.RowDefinitions>
+                <RowDefinition Height="55"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+
+              <Image Source="{Binding Manifacturer, Converter={StaticResource StringToImageUrlConverter}}"
+								   Aspect="AspectFill"
+								   Grid.Row="0"
+								   Grid.Column="1"
+								   VerticalOptions="Start"
+								   HorizontalOptions="End"/>
+
+              <Image Source="{Binding ImageUrl}"
+								  Grid.Row="0"
+								  Grid.RowSpan="2"
+								  Grid.Column="0"
+								  Aspect="AspectFill"/>
+
+              <Label Text="{Binding Model}"
+								   Grid.Row="0"
+								   Grid.Column="1">
+                <Label.FontSize>
+                  <OnPlatform x:TypeArguments="x:Double"
+												iOS="40"
+												Android="20"
+												WinPhone="30"/>
+                </Label.FontSize>
+                <Label.TextColor>
+                  <OnPlatform x:TypeArguments="Color"
+												iOS="#fffa28d4"
+												Android="#ffffffff"
+												WinPhone="#ffffffff"/>
+                </Label.TextColor>
+              </Label>
+
+              <Label Text="{Binding Price, Converter={StaticResource IntToPriceConverter}}"
+								   Font="Medium"
+								   LineBreakMode="TailTruncation"
+								   Grid.Row="1"
+								   Grid.Column="1"
+								   VerticalOptions="Start"
+								   HorizontalOptions="End"
+								   TextColor="Teal"/>
+
+              <!--<StackLayout Grid.Column="1"
+												 BackgroundColor="Teal"
+												 HorizontalOptions="FillAndExpand"
+												 Padding="12,10,10,6"
+												 WidthRequest="200"
+												 HeightRequest="200">
+
+										<Label Text="{Binding Title}"
+											   TextColor="#fffa28d4"
+											   Font="Large">
+											<Label.TextColor>
+												<OnPlatform x:TypeArguments="Color"
+															iOS="#fffa28d4"
+															Android="#ffffffff"
+															WinPhone="#ffffffff"/>
+											</Label.TextColor>
+										</Label>
+
+										<Label Text="{Binding Price, Converter={StaticResource IntToPriceConverter}}"
+											   Font="Medium"
+											   LineBreakMode="TailTruncation"
+											   HorizontalOptions="End"/>
+									</StackLayout>-->
+              <!--</StackLayout>-->
+            </Grid>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+  </StackLayout>
+
+</ContentPage>

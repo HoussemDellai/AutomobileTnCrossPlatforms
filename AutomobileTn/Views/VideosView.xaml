@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AutomobileTn.Views.VideosView"
+             Title="Videos">
+
+  <ListView ItemsSource="{Binding VideosList}" >
+
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell Height="110">
+          <Grid BackgroundColor="Transparent">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="110"></RowDefinition>
+              <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="180"></ColumnDefinition>
+              <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Image Source="{Binding MediumThumbnail}"
+                   Grid.Row="0"
+                   Grid.RowSpan="2"
+                   Grid.Column="0"
+                   Aspect="Fill"/>
+
+            <Label Text="{Binding Title}"
+                   Grid.Row="0"
+                   Grid.Column="1">
+              <Label.FontSize>
+                <OnPlatform x:TypeArguments="x:Double"
+                            iOS="40"
+                            Android="20"
+                            WinPhone="30"/>
+              </Label.FontSize>
+              <Label.TextColor>
+                <OnPlatform x:TypeArguments="Color"
+                            iOS="#fffa28d4"
+                            Android="#ffffffff"
+                            WinPhone="#ffffffff"/>
+              </Label.TextColor>
+            </Label>
+
+            <Label Text="{Binding PubDate}"
+                   Font="Medium"
+                   LineBreakMode="TailTruncation"
+                   Grid.Row="1"
+                   Grid.Column="1"
+                   VerticalOptions="Start"
+                   HorizontalOptions="End"
+                   TextColor="Teal"/>
+
+          </Grid>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>
