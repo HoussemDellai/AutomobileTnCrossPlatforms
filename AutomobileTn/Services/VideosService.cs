@@ -13,6 +13,7 @@ using Windows.Data.Json;
 #endif
 using AutomobileTn.Models;
 using AutomobileTn.Utils;
+using Newtonsoft.Json;
 
 namespace AutomobileTn.Services
 {
@@ -26,17 +27,19 @@ namespace AutomobileTn.Services
 			{
 				var youtubeVideosJson = await client.GetStringAsync(Constants.VideosLink);
 
-				var stream = new MemoryStream(Encoding.UTF8.GetBytes(youtubeVideosJson));
+                //var stream = new MemoryStream(Encoding.UTF8.GetBytes(youtubeVideosJson));
 
-				var jsonSerializer = new DataContractJsonSerializer(typeof(List<Video>),
-					new DataContractJsonSerializerSettings
-				{
-					DateTimeFormat = new DateTimeFormat("ddd, dd MMM yyyy HH:mm:ss zzz", CultureInfo.InvariantCulture)
-                    //Wed, 04 Jun 2014 01:30:21 + 0000
-                });
+                //var jsonSerializer = new DataContractJsonSerializer(typeof(List<Video>),
+                //	new DataContractJsonSerializerSettings
+                //{
+                //	DateTimeFormat = new DateTimeFormat("ddd, dd MMM yyyy HH:mm:ss zzz", CultureInfo.InvariantCulture)
+                //                //Wed, 04 Jun 2014 01:30:21 + 0000
+                //            });
 
-				return (List<Video>) jsonSerializer.ReadObject(stream);
-			}
+                //return (List<Video>) jsonSerializer.ReadObject(stream);
+
+                return JsonConvert.DeserializeObject<List<Video>>(youtubeVideosJson);
+            }
 			catch (Exception exc)
 			{
 				Debug.WriteLine(exc.Data);

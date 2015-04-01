@@ -76,14 +76,12 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"System.Resources.ResourceManager.dll",
-		"System.Collections.dll",
 		"System.Threading.Tasks.dll",
 		"System.Diagnostics.Debug.dll",
 		"System.ObjectModel.dll",
+		"System.Collections.dll",
 		"System.Linq.dll",
 		"System.Xml.XDocument.dll",
-		"System.Runtime.Serialization.Json.dll",
-		"System.IO.dll",
 		"System.Globalization.dll",
 		"System.Threading.dll",
 		"System.Runtime.Extensions.dll",
@@ -91,6 +89,7 @@ class MonoPackageManager_Resources {
 		"System.Dynamic.Runtime.dll",
 		"System.Linq.Expressions.dll",
 		"System.Text.Encoding.dll",
+		"System.IO.dll",
 		"System.Text.RegularExpressions.dll",
 		"System.Xml.ReaderWriter.dll",
 		"System.Runtime.Serialization.Primitives.dll",
@@ -102,5 +101,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_19";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_15";
 }

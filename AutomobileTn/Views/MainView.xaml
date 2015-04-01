@@ -27,12 +27,27 @@
     </ResourceDictionary>
   </ContentPage.Resources>
 
+  <!--<ContentPage.ToolbarItems>
+    <ToolbarItem Name="Log Out"
+                   
+                 Order="Primary"
+                 Priority="0">
+
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource"
+                    WinPhone="Assets/Logout.png"
+                    Android="ic_action_logout.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>-->
+
   <StackLayout VerticalOptions="FillAndExpand">
-    
+
     <ActivityIndicator IsRunning="{Binding IsBusy}"
-                       IsVisible="{Binding IsBusy}"/>
-    
-    <!--<ProgressBar Progress="0.8"></ProgressBar>-->    
+                       IsVisible="{Binding IsBusy}"
+                       VerticalOptions="Center"/>
+
+    <!--<ProgressBar Progress="0.8"></ProgressBar>-->
 
     <ListView ItemsSource="{Binding CarsGrouped}"
 				  IsGroupingEnabled="True"

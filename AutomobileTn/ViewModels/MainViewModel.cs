@@ -112,6 +112,10 @@ namespace AutomobileTn.ViewModels
             //create a new collection of groups 
             CarsGrouped = new ObservableCollection<Grouping<string, Car>>(sorted);
 
+            var videosService = new VideosService();
+
+            VideosList = await videosService.GetYoutubeVideosAsync();
+
             IsBusy = false;
         }
 
