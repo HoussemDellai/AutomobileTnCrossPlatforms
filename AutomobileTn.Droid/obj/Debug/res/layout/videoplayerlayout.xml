@@ -1,4 +1,4 @@
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><VideoView android:id="@+id/SampleVideoView" android:layout_width="fill_parent" android:layout_height="fill_parent"></VideoView><!--<TextView
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><VideoView android:id="@+id/SampleVideoView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"></VideoView><!--<TextView
       android:text="Third Activity"
       android:textAppearance="?android:attr/textAppearanceLarge"
       android:layout_width="match_parent"

@@ -6,6 +6,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -16,7 +17,7 @@ using Xamarin.Forms;
 
 namespace AutomobileTn.Droid
 {
-	[Activity (Label = "Videos")]			
+	[Activity (Label = "Videos", ScreenOrientation = ScreenOrientation.Landscape)]			
 	public class VideoPlayerActivity : Activity
 	{
 	    protected override void OnPostCreate(Bundle savedInstanceState)
@@ -51,6 +52,13 @@ namespace AutomobileTn.Droid
             var uri = Android.Net.Uri.Parse(videoUri);
 
             videoView.SetVideoURI(uri);
+
+            // doc : http://code.tutsplus.com/tutorials/streaming-video-in-android-apps--cms-19888
+            var mediaController = new MediaController(this);
+
+            mediaController.SetAnchorView(videoView);
+
+            videoView.SetMediaController(mediaController);
 
             videoView.Start();
         }
