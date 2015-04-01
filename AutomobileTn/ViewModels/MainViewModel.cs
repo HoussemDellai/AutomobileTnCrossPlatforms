@@ -18,10 +18,12 @@ namespace AutomobileTn.ViewModels
     {
 
         private ObservableCollection<Car> _carsList;
-
         public ObservableCollection<Car> CarsList
         {
-            get { return _carsList; }
+            get
+            {
+                return _carsList;
+            }
             set
             {
                 _carsList = value;
@@ -29,7 +31,7 @@ namespace AutomobileTn.ViewModels
             }
         }
 
-        public List<Video> _videosList;
+        private List<Video> _videosList;
         public List<Video> VideosList
         {
             get
@@ -48,7 +50,10 @@ namespace AutomobileTn.ViewModels
 
         public ObservableCollection<Grouping<string, Car>> CarsGrouped
         {
-            get { return _carsGrouped; }
+            get
+            {
+                return _carsGrouped;
+            }
             set
             {
                 _carsGrouped = value;
@@ -58,7 +63,10 @@ namespace AutomobileTn.ViewModels
 
         public bool IsBusy
         {
-            get { return _isBusy; }
+            get
+            {
+                return _isBusy;
+            }
             set
             {
                 _isBusy = value;
@@ -101,19 +109,18 @@ namespace AutomobileTn.ViewModels
             }
 
             //Use linq to sorty our monkeys by name and then group them by the new name sort property 
-            var sorted = from car
-                         in CarsList
-                         orderby car.Manifacturer
-                         group car
-                         by car.Manifacturer
-                         into carsGroup
-                         select new Grouping<string, Car>(carsGroup.Key, carsGroup);
+            var sortedCarsList = from car
+                                 in CarsList
+                                 group car
+                                 by car.Manifacturer
+                                 into carsGroup
+                                 select new Grouping<string, Car>(carsGroup.Key, carsGroup);
 
             //create a new collection of groups 
-            CarsGrouped = new ObservableCollection<Grouping<string, Car>>(sorted);
+            CarsGrouped = new ObservableCollection<Grouping<string, Car>>(sortedCarsList);
 
             var videosService = new VideosService();
-
+         
             VideosList = await videosService.GetYoutubeVideosAsync();
 
             IsBusy = false;

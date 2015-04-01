@@ -17,6 +17,6 @@ public final class R {
         public static final int SampleVideoView=0x7f040000;
     }
     public static final class layout {
-        public static final int videoslayout=0x7f030000;
+        public static final int videoplayerlayout=0x7f030000;
     }
 }

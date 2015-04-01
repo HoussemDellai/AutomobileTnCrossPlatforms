@@ -77,7 +77,7 @@ namespace AutomobileTn.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int VideosLayout = 2130903040;
+			public const int VideoPlayerLayout = 2130903040;
 			
 			static Layout()
 			{

@@ -14,10 +14,16 @@ namespace AutomobileTn.Views
         {
             InitializeComponent();
 
-            BindingContext = video;
+            //BindingContext = video;
 
-            // MessagengingCenter : http://developer.xamarin.com/guides/cross-platform/xamarin-forms/messaging-center/
-            MessagingCenter.Send(video.VideoLink, "video");
+            //// MessagengingCenter : http://developer.xamarin.com/guides/cross-platform/xamarin-forms/messaging-center/
+            ////MessagingCenter.Send(video.VideoLink, "video");
+            //MessagingCenter.Subscribe<Video, string>(this, "Hi", (sender, arg) =>
+            //{
+            //    // do something whenever the "Hi" message is sent
+            //    // using the 'arg' parameter which is a string
+            //    var message = arg;
+            //});
         }
     }
 }

@@ -1,6 +1,6 @@
 AutomobileTn.Droid.MainActivity;automobiletn.droid.MainActivity
-AutomobileTn.Droid.VideosActivity;automobiletn.droid.VideosActivity
-AutomobileTn.Droid.VideosPageRenderer;automobiletn.droid.VideosPageRenderer
+AutomobileTn.Droid.VideoPlayerActivity;automobiletn.droid.VideoPlayerActivity
+AutomobileTn.Droid.VideoPlayerRenderer;automobiletn.droid.VideoPlayerRenderer
 Android.Support.V4.App.FragmentManager.IOnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
 Android.Support.V4.Content.Loader.IOnLoadCompleteListenerImplementor;mono.android.support.v4.content.Loader_OnLoadCompleteListenerImplementor
 Android.Support.V4.View.ActionProvider.ISubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor

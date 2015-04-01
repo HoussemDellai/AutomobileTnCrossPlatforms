@@ -15,14 +15,14 @@ using Xamarin.Forms;
 // This ExportRenderer command tells Xamarin.Forms to use this renderer
 // instead of the built-in one for this page
 [assembly:ExportRenderer(typeof(AutomobileTn.Views.VideoPlayerView), 
-    typeof(AutomobileTn.Droid.VideosPageRenderer))]
+    typeof(AutomobileTn.Droid.VideoPlayerRenderer))]
 
 namespace AutomobileTn.Droid
 {
 	/// <summary>
 	/// Render this page using platform-specific Android.Views controls
 	/// </summary>
-	public class VideosPageRenderer : PageRenderer
+	public class VideoPlayerRenderer : PageRenderer
 	{
 		protected override void OnElementChanged (ElementChangedEventArgs<Page> e)
 		{
@@ -31,7 +31,7 @@ namespace AutomobileTn.Droid
 			// this is a ViewGroup - so should be able to load an AXML file and FindView<>
 			var activity = this.Context as Activity;
 
-			var videosActivity = new Intent (activity, typeof (VideosActivity));
+			var videosActivity = new Intent (activity, typeof (VideoPlayerActivity));
 
 			activity.StartActivity (videosActivity);
 		}

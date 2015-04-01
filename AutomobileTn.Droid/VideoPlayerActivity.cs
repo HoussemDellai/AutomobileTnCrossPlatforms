@@ -10,17 +10,23 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using AutomobileTn.Models;
 using AutomobileTn.Views;
 using Xamarin.Forms;
 
 namespace AutomobileTn.Droid
 {
 	[Activity (Label = "Videos")]			
-	public class VideosActivity : Activity
+	public class VideoPlayerActivity : Activity
 	{
 	    protected override void OnPostCreate(Bundle savedInstanceState)
 	    {
-            MessagingCenter.Subscribe<VideoPlayerView>(this, "Hi", OnMessageReceived);
+            MessagingCenter.Subscribe<Video, string>(this, "Hi", (sender, arg) =>
+            {
+                // do something whenever the "Hi" message is sent
+                // using the 'arg' parameter which is a string
+                PlayVideo(arg);
+            });
 
             base.OnPostCreate(savedInstanceState);
 	    }
@@ -29,15 +35,7 @@ namespace AutomobileTn.Droid
 		{
 			base.OnCreate (bundle);
 
-			SetContentView (Resource.Layout.VideosLayout);
-
-            var videoView = FindViewById<VideoView>(Resource.Id.SampleVideoView);
-
-            var uri = Android.Net.Uri.Parse("http://video.ch9.ms/ch9/d207/4590f20e-3565-43cc-851e-f4334dbdd207/apiapps.mp4");
-
-            videoView.SetVideoURI(uri);
-
-            videoView.Start();
+			SetContentView (Resource.Layout.VideoPlayerLayout);
 
             //var button = FindViewById<Button> (Resource.Id.myButton);
 
@@ -46,10 +44,16 @@ namespace AutomobileTn.Droid
             //};
         }
 
-	    private void OnMessageReceived(VideoPlayerView obj)
+	    private void PlayVideo(string videoUri)
 	    {
-	        
-	    }
+            var videoView = FindViewById<VideoView>(Resource.Id.SampleVideoView);
+
+            var uri = Android.Net.Uri.Parse(videoUri);
+
+            videoView.SetVideoURI(uri);
+
+            videoView.Start();
+        }
 	}
 }
 

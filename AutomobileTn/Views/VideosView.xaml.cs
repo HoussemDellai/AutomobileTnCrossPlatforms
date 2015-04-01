@@ -38,6 +38,8 @@ namespace AutomobileTn.Views
         {
             var video = e.Item as Video;
             await Navigation.PushAsync(new VideoPlayerView(video));
+
+            MessagingCenter.Send<Video, string>(video, "Hi", video.VideoLink);
         }
     }
 }

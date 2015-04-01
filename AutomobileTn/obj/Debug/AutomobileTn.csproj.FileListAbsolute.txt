@@ -23,3 +23,11 @@ E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Debug\MainV
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Debug\TweetsView.xaml.g.cs
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Debug\VideosView.xaml.g.cs
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Debug\VideoPlayerView.xaml.g.cs
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Debug\GalaSoft.MvvmLight.Platform.xml
