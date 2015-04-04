@@ -49,6 +49,7 @@
     <Compile Include="Utils\Constants.cs" />
     <Compile Include="Utils\RelayCommand.cs" />
     <Compile Include="Utils\RelayCommandGeneric.cs" />
+    <Compile Include="ViewModels\VideosViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\TweetsViewModel.cs" />
     <Compile Include="Views\MainView.xaml.cs">

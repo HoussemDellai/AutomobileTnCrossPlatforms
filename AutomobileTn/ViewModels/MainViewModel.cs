@@ -31,23 +31,7 @@ namespace AutomobileTn.ViewModels
             }
         }
 
-        private List<Video> _videosList;
-        public List<Video> VideosList
-        {
-            get
-            {
-                return _videosList;
-            }
-            set
-            {
-                _videosList = value;
-                OnPropertyChanged();
-            }
-        }
-
         private ObservableCollection<Grouping<string, Car>> _carsGrouped;
-        private bool _isBusy;
-
         public ObservableCollection<Grouping<string, Car>> CarsGrouped
         {
             get
@@ -61,6 +45,7 @@ namespace AutomobileTn.ViewModels
             }
         }
 
+        private bool _isBusy;
         public bool IsBusy
         {
             get
@@ -75,21 +60,12 @@ namespace AutomobileTn.ViewModels
         }
 
         public ICommand RefreshCommand { get; set; }
-
-        public ICommand SendEmployeeMessageCommand { get; set; }
-
+        
         public MainViewModel()
         {
             RefreshCommand = new RelayCommand(async () => await DownloadDataAsync());
-
-            SendEmployeeMessageCommand = new RelayCommandGeneric<Car>(SendEmployeeMessage);
-
+            
             DownloadDataAsync();
-        }
-
-        private void SendEmployeeMessage(Car employee)
-        {
-            //Messenger.Default.Send(employee);
         }
 
         private async Task DownloadDataAsync()
@@ -118,10 +94,6 @@ namespace AutomobileTn.ViewModels
 
             //create a new collection of groups 
             CarsGrouped = new ObservableCollection<Grouping<string, Car>>(sortedCarsList);
-
-            var videosService = new VideosService();
-         
-            VideosList = await videosService.GetYoutubeVideosAsync();
 
             IsBusy = false;
         }

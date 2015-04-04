@@ -16,7 +16,7 @@ namespace AutomobileTn.Views
         {
             InitializeComponent();
 
-            var vm = new MainViewModel();
+            var vm = new VideosViewModel();
 
             //var video = new Video
             //{

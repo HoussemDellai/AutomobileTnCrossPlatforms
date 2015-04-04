@@ -5,8 +5,15 @@
              Title="Tweets">
 
   <StackLayout VerticalOptions="FillAndExpand">
+    
+      <ActivityIndicator IsRunning="{Binding IsBusy}"
+                         IsVisible="{Binding IsBusy}"
+                         VerticalOptions="Center"
+                         TranslationY="100"
+                         HeightRequest="90"/>
 
-    <ListView ItemsSource="{Binding TweetsList}">
+
+      <ListView ItemsSource="{Binding TweetsList}">
 
       <ListView.ItemTemplate>
         <DataTemplate>

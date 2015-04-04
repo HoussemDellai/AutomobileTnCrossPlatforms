@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AutomobileTn.Views.MainView"
-			 xmlns:Converters="clr-namespace:AutomobileTn.Converters;assembly=AutomobileTn"
-			 Title="AutomobileTn">
+			       xmlns:Converters="clr-namespace:AutomobileTn.Converters;assembly=AutomobileTn"
+			       Title="AutomobileTn">
 
   <ContentPage.Resources>
     <ResourceDictionary>
@@ -45,7 +45,9 @@
 
     <ActivityIndicator IsRunning="{Binding IsBusy}"
                        IsVisible="{Binding IsBusy}"
-                       VerticalOptions="Center"/>
+                       VerticalOptions="Center"
+                       TranslationY="100"
+                       HeightRequest="90"/>
 
     <!--<ProgressBar Progress="0.8"></ProgressBar>-->
 

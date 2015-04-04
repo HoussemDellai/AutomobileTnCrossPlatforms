@@ -28,17 +28,35 @@ namespace AutomobileTn.ViewModels
 			}
 		}
 
-		public TweetsViewModel()
+        private bool _isBusy;
+        public bool IsBusy
+        {
+            get
+            {
+                return _isBusy;
+            }
+            set
+            {
+                _isBusy = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public TweetsViewModel()
 		{
 			DowloadDataAsync();
 		}
 
 		private async Task DowloadDataAsync()
 		{
+		    IsBusy = true;
+
 			var tweetsSrvice = new TweetsService();
 
 			TweetsList = await tweetsSrvice.GetTweetsAsync();
-        }
+
+		    IsBusy = false;
+		}
 
 		public event PropertyChangedEventHandler PropertyChanged;
 
