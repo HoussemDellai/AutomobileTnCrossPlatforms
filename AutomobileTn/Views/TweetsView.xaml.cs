@@ -15,7 +15,21 @@ namespace AutomobileTn.Views
         {
             InitializeComponent();
 
-            BindingContext = new TweetsViewModel();
+            var tweetsViewModel = new TweetsViewModel();
+
+            BindingContext = tweetsViewModel;
+
+            var refresh = new ToolbarItem
+            {
+                Icon = "refresh.png",
+                Text = "Refresh",
+                Command = new Command(() =>
+                {
+                    tweetsViewModel.RefreshCommand.Execute(null);
+                })
+            };
+
+            ToolbarItems.Add(refresh);
         }
     }
 }

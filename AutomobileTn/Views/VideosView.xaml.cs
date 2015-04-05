@@ -16,7 +16,7 @@ namespace AutomobileTn.Views
         {
             InitializeComponent();
 
-            var vm = new VideosViewModel();
+            var videosViewModel = new VideosViewModel();
 
             //var video = new Video
             //{
@@ -31,7 +31,19 @@ namespace AutomobileTn.Views
             //    video, video, video,
             //};
 
-            BindingContext = vm;
+            BindingContext = videosViewModel;
+
+            var refresh = new ToolbarItem
+            {
+                Icon = "refresh.png",
+                Text = "Refresh",
+                Command = new Command(() =>
+                {
+                    videosViewModel.RefreshCommand.Execute(null);
+                })
+            };
+
+            ToolbarItems.Add(refresh);
         }
 
         private async  void ListView_OnItemTapped(object sender, ItemTappedEventArgs e)

@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AutomobileTn.Views.MainView"
+             x:Class="AutomobileTn.Views.CarsView"
 			       xmlns:Converters="clr-namespace:AutomobileTn.Converters;assembly=AutomobileTn"
-			       Title="AutomobileTn">
+			       Title="Cars"
+             BackgroundColor="White" >
 
   <ContentPage.Resources>
     <ResourceDictionary>
+
+      <Color x:Key="redColor">#FFD90000</Color>
+      <Color x:Key="firstColor">#FFFFFF</Color>
+      <Color x:Key="darkColor">#FF686868</Color>
+
       <OnPlatform x:Key="boxSize"
 						x:TypeArguments="x:Double"
 						iOS="50"
@@ -23,6 +29,7 @@
 
       <Converters:IntToPriceConverter x:Key="IntToPriceConverter" />
       <Converters:StringToImageUrlConverter x:Key="StringToImageUrlConverter" />
+      <Converters:IntToCentsPriceConverter x:Key="IntToCentsPriceConverter" />
 
     </ResourceDictionary>
   </ContentPage.Resources>
@@ -46,7 +53,6 @@
     <ActivityIndicator IsRunning="{Binding IsBusy}"
                        IsVisible="{Binding IsBusy}"
                        VerticalOptions="Center"
-                       TranslationY="100"
                        HeightRequest="90"/>
 
     <!--<ProgressBar Progress="0.8"></ProgressBar>-->
@@ -63,18 +69,19 @@
           <ViewCell Height="40" >
             <StackLayout VerticalOptions="FillAndExpand"
 									       Padding="5"
-									       BackgroundColor="Teal"
+									       BackgroundColor="{StaticResource firstColor}"
 									       WidthRequest="600" >
               <Label Text="{Binding Key}"
-								   TextColor="White"
-								   VerticalOptions="Center"
-								   TranslationX="2">
-                <Label.FontSize>
+								     TextColor="{StaticResource redColor}"
+								     VerticalOptions="Center"
+								     TranslationX="8"
+                     Font="Bold">
+                <!--<Label.FontSize>
                   <OnPlatform x:TypeArguments="x:Double"
-												iOS="40"
-												Android="20"
-												WinPhone="20"/>
-                </Label.FontSize>
+												      iOS="40"
+												      Android="25"
+												      WinPhone="30"/>
+                </Label.FontSize>-->
               </Label>
             </StackLayout>
           </ViewCell>
@@ -91,11 +98,11 @@
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-            <Grid Padding="6,4,12,4"
-							  BackgroundColor="Transparent">
+            <Grid Padding="6,12,12,8"
+							    BackgroundColor="{StaticResource firstColor}">
               <Grid.RowDefinitions>
-                <RowDefinition Height="55"></RowDefinition>
-                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="45"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
               </Grid.RowDefinitions>
               <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="180"></ColumnDefinition>
@@ -110,37 +117,77 @@
 								   HorizontalOptions="End"/>
 
               <Image Source="{Binding ImageUrl}"
-								  Grid.Row="0"
-								  Grid.RowSpan="2"
-								  Grid.Column="0"
-								  Aspect="AspectFill"/>
+								     Grid.Row="0"
+								     Grid.RowSpan="2"
+								     Grid.Column="0"
+								     Aspect="AspectFill">
+                <Image.TranslationY>
+                  <OnPlatform x:TypeArguments="x:Double"
+												iOS="0"
+												Android="0"
+												WinPhone="8"/>
+                </Image.TranslationY>
+
+              </Image>
 
               <Label Text="{Binding Model}"
 								   Grid.Row="0"
-								   Grid.Column="1">
+								   Grid.Column="1"
+                   TextColor="{StaticResource darkColor}"
+                   HorizontalOptions="End">
                 <Label.FontSize>
                   <OnPlatform x:TypeArguments="x:Double"
 												iOS="40"
 												Android="20"
 												WinPhone="30"/>
                 </Label.FontSize>
-                <Label.TextColor>
+                <!--<Label.TextColor>
                   <OnPlatform x:TypeArguments="Color"
 												iOS="#fffa28d4"
 												Android="#ffffffff"
 												WinPhone="#ffffffff"/>
-                </Label.TextColor>
+                </Label.TextColor>-->
               </Label>
 
-              <Label Text="{Binding Price, Converter={StaticResource IntToPriceConverter}}"
-								   Font="Medium"
-								   LineBreakMode="TailTruncation"
-								   Grid.Row="1"
-								   Grid.Column="1"
-								   VerticalOptions="Start"
-								   HorizontalOptions="End"
-								   TextColor="Teal"/>
+              <StackLayout Orientation="Horizontal"
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           VerticalOptions="Start"
+                           HorizontalOptions="End">
+                <Label Text="{Binding Price, Converter={StaticResource IntToPriceConverter}}"
+                       Font="Large"
+                       LineBreakMode="TailTruncation"
+                       TextColor="{StaticResource redColor}">
+                  <Label.FontSize>
+                    <OnPlatform x:TypeArguments="x:Double"
+												        iOS="40"
+												        Android="30"
+												        WinPhone="40"/>
+                  </Label.FontSize>
+                </Label>
 
+                <StackLayout Orientation="Vertical">
+                  <Label Text="{Binding Price, Converter={StaticResource IntToCentsPriceConverter}}"
+                         Font="Medium"
+                         LineBreakMode="TailTruncation"
+                         TextColor="{StaticResource redColor}"
+                         VerticalOptions="Start"
+                         Opacity="0.8">
+                    <Label.TranslationY>
+                      <OnPlatform x:TypeArguments="x:Double"
+                                  Android="6"
+                                  WinPhone="6"
+                                  iOS="0"/>
+                    </Label.TranslationY>
+
+                  </Label>
+                  <Label Text="TND"
+                         Font="Micro"
+                         TextColor="{StaticResource redColor}"
+                         TranslationY="-4"
+                         Opacity="0.8"/>
+                </StackLayout>
+              </StackLayout>
               <!--<StackLayout Grid.Column="1"
 												 BackgroundColor="Teal"
 												 HorizontalOptions="FillAndExpand"

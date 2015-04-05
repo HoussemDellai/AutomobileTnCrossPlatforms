@@ -4,7 +4,7 @@ using Xamarin.Forms;
 
 namespace AutomobileTn.Converters
 {
-	public class IntToPriceConverter : IValueConverter
+	public class IntToCentsPriceConverter : IValueConverter
     {
 		public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
 		{
@@ -12,9 +12,10 @@ namespace AutomobileTn.Converters
 
 			var number = (int)value;
 
-			var result = number / 1000 + " k DT";
+            //var result = number + " DTN";
+		    var result = number % 1000;// + " k DT";
 
-			return result;
+            return result;
 		}
 
 		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

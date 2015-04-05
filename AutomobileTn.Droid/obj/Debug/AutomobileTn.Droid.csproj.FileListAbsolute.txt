@@ -28,3 +28,9 @@ E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.dll.mdb
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.dll.config
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\layout\videoplayerlayout.xml
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-hdpi\refresh.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-hdpi\twitter.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xhdpi\refresh.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xhdpi\twitter.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xxhdpi\refresh.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xxhdpi\twitter.png

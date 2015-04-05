@@ -4,21 +4,61 @@
              x:Class="AutomobileTn.Views.VideosView"
              Title="Videos">
 
+  <ContentPage.Resources>
+    <ResourceDictionary>
+
+      <Color x:Key="redColor">#FFD90000</Color>
+      <Color x:Key="firstColor">#FFFFFF</Color>
+      <Color x:Key="darkColor">#FF686868</Color>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
   <StackLayout VerticalOptions="FillAndExpand">
 
     <ActivityIndicator IsRunning="{Binding IsBusy}"
                        IsVisible="{Binding IsBusy}"
                        VerticalOptions="Center"
-                       TranslationY="100"
                        HeightRequest="90"/>
 
     <ListView ItemsSource="{Binding VideosList}"
-            ItemTapped="ListView_OnItemTapped">
+              ItemTapped="ListView_OnItemTapped"
+              HasUnevenRows="True">
 
       <ListView.ItemTemplate>
         <DataTemplate>
-          <ViewCell Height="110">
-            <Grid BackgroundColor="Transparent">
+          <ViewCell >
+            <StackLayout Padding="10"
+                         VerticalOptions="FillAndExpand">
+
+              <Image Source="{Binding MediumThumbnail}"
+                     Aspect="AspectFill"/>
+
+              <Label Text="{Binding Title}"
+                     FontSize="Medium"
+                     LineBreakMode="WordWrap"
+                     TextColor="{StaticResource darkColor}">
+
+                <!--<Label.TextColor>
+                  <OnPlatform x:TypeArguments="Color"
+                              iOS="#fffa28d4"
+                              Android="#ffffffff"
+                              WinPhone="#ffffffff"/>
+                </Label.TextColor>-->
+              </Label>
+
+              <Label Text="{Binding PubDate}"
+                     Font="Medium"
+                     VerticalOptions="Start"
+                     HorizontalOptions="End"
+                     FontSize="Medium"
+                     TextColor="{StaticResource redColor}"
+                     LineBreakMode="NoWrap"/>
+
+            </StackLayout>
+          </ViewCell>
+          <!--<ViewCell Height="110">
+            <Grid BackgroundColor="Transparent"
+                  Padding="10">
               <Grid.RowDefinitions>
                 <RowDefinition Height="110"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
@@ -36,13 +76,10 @@
 
               <Label Text="{Binding Title}"
                      Grid.Row="0"
-                     Grid.Column="1">
-                <Label.FontSize>
-                  <OnPlatform x:TypeArguments="x:Double"
-                              iOS="40"
-                              Android="20"
-                              WinPhone="30"/>
-                </Label.FontSize>
+                     Grid.Column="1"
+                     FontSize="Small"
+                     LineBreakMode="WordWrap">
+           
                 <Label.TextColor>
                   <OnPlatform x:TypeArguments="Color"
                               iOS="#fffa28d4"
@@ -53,15 +90,16 @@
 
               <Label Text="{Binding PubDate}"
                      Font="Medium"
-                     LineBreakMode="TailTruncation"
                      Grid.Row="1"
                      Grid.Column="1"
                      VerticalOptions="Start"
                      HorizontalOptions="End"
-                     TextColor="Teal"/>
+                     FontSize="Medium"
+                     TextColor="#3498DB"
+                     LineBreakMode="NoWrap"/>
 
             </Grid>
-          </ViewCell>
+          </ViewCell>-->
         </DataTemplate>
       </ListView.ItemTemplate>
     </ListView>

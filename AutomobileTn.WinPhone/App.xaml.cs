@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Resources;
 using System.Windows;
 using System.Windows.Markup;
+using System.Windows.Media;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
@@ -23,8 +24,9 @@ namespace AutomobileTn.WinPhone
 		/// </summary>
 		public App()
 		{
-			// Global handler for uncaught exceptions.
-			UnhandledException += Application_UnhandledException;
+            
+            // Global handler for uncaught exceptions.
+            UnhandledException += Application_UnhandledException;
 
 			// Standard XAML initialization
 			InitializeComponent();
@@ -32,11 +34,16 @@ namespace AutomobileTn.WinPhone
 			// Phone-specific initialization
 			InitializePhoneApplication();
 
-			// Language display initialization
-			InitializeLanguage();
+            //if ((Visibility)Resources["PhoneLightThemeVisibility"] == Visibility.Visible)
+            //{
+                ApplyLightTheme();
+            //}
 
-			// Show graphics profiling information while debugging.
-			if (Debugger.IsAttached)
+            // Language display initialization
+            //InitializeLanguage();
+
+            // Show graphics profiling information while debugging.
+            if (Debugger.IsAttached)
 			{
 				// Display the current frame rate counters.
 				Application.Current.Host.Settings.EnableFrameRateCounter = true;
@@ -57,9 +64,45 @@ namespace AutomobileTn.WinPhone
 
 		}
 
-		// Code to execute when the application is launching (eg, from Start)
-		// This code will not execute when the application is reactivated
-		private void Application_Launching(object sender, LaunchingEventArgs e)
+	    /// <summary>
+	    /// http://www.rudyhuyn.com/blog/2013/01/18/forcer-un-theme-sous-windows-phone-8/
+	    /// </summary>
+	    private void ApplyLightTheme()
+	    {
+	        ((SolidColorBrush) Resources["PhoneRadioCheckBoxCheckBrush"]).Color =
+	            ((SolidColorBrush) Resources["PhoneRadioCheckBoxBorderBrush"]).Color =
+	                ((SolidColorBrush) Resources["PhoneForegroundBrush"]).Color = Color.FromArgb(0xDE, 0x00, 0x00, 0x00);
+
+	        ((SolidColorBrush) Resources["PhoneBackgroundBrush"]).Color = Color.FromArgb(0xFF, 0xFF, 0xFF, 0xFF);
+	        ((SolidColorBrush) Resources["PhoneContrastForegroundBrush"]).Color = Color.FromArgb(0xFF, 0xFF, 0xFF, 0xFF);
+	        ((SolidColorBrush) Resources["PhoneContrastBackgroundBrush"]).Color = Color.FromArgb(0xDE, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneDisabledBrush"]).Color = Color.FromArgb(0x4D, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneProgressBarBackgroundBrush"]).Color = Color.FromArgb(0x19, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneTextCaretBrush"]).Color = Color.FromArgb(0xDE, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneTextBoxBrush"]).Color = Color.FromArgb(0x26, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneTextBoxForegroundBrush"]).Color = Color.FromArgb(0xDE, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneTextBoxEditBackgroundBrush"]).Color = Color.FromArgb(0x00, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneTextBoxReadOnlyBrush"]).Color = Color.FromArgb(0x2E, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneSubtleBrush"]).Color = Color.FromArgb(0x66, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneTextBoxSelectionForegroundBrush"]).Color = Color.FromArgb(0xFF, 0xFF, 0xFF,
+	            0xFF);
+	        ((SolidColorBrush) Resources["PhoneButtonBasePressedForegroundBrush"]).Color = Color.FromArgb(0xFF, 0xFF, 0xFF,
+	            0xFF);
+	        ((SolidColorBrush) Resources["PhoneTextHighContrastBrush"]).Color = Color.FromArgb(0xDE, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneTextMidContrastBrush"]).Color = Color.FromArgb(0x73, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneTextLowContrastBrush"]).Color = Color.FromArgb(0x40, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneSemitransparentBrush"]).Color = Color.FromArgb(0xAA, 0xFF, 0xFF, 0xFF);
+	        ((SolidColorBrush) Resources["PhoneChromeBrush"]).Color = Color.FromArgb(0xFF, 0xDD, 0xDD, 0xDD);
+
+	        ((SolidColorBrush) Resources["PhoneInactiveBrush"]).Color = Color.FromArgb(0x33, 0x00, 0x00, 0x00);
+	        ((SolidColorBrush) Resources["PhoneInverseInactiveBrush"]).Color = Color.FromArgb(0xFF, 0xE5, 0xE5, 0xE5);
+	        ((SolidColorBrush) Resources["PhoneInverseBackgroundBrush"]).Color = Color.FromArgb(0xFF, 0xDD, 0xDD, 0xDD);
+	        ((SolidColorBrush) Resources["PhoneBorderBrush"]).Color = Color.FromArgb(0x99, 0x00, 0x00, 0x00);
+	    }
+
+	    // Code to execute when the application is launching (eg, from Start)
+        // This code will not execute when the application is reactivated
+        private void Application_Launching(object sender, LaunchingEventArgs e)
 		{
 		}
 

@@ -14,7 +14,7 @@ using System.Windows.Input;
 
 namespace AutomobileTn.ViewModels
 {
-    public class MainViewModel : INotifyPropertyChanged
+    public class CarsViewModel : INotifyPropertyChanged
     {
 
         private ObservableCollection<Car> _carsList;
@@ -61,7 +61,7 @@ namespace AutomobileTn.ViewModels
 
         public ICommand RefreshCommand { get; set; }
         
-        public MainViewModel()
+        public CarsViewModel()
         {
             RefreshCommand = new RelayCommand(async () => await DownloadDataAsync());
             
@@ -93,7 +93,7 @@ namespace AutomobileTn.ViewModels
                                  select new Grouping<string, Car>(carsGroup.Key, carsGroup);
 
             //create a new collection of groups 
-            CarsGrouped = new ObservableCollection<Grouping<string, Car>>(sortedCarsList);
+            CarsGrouped = new ObservableCollection<Grouping<string, Car>>(sortedCarsList.OrderBy(grouping => grouping.Key));
 
             IsBusy = false;
         }

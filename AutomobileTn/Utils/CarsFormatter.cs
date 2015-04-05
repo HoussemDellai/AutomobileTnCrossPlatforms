@@ -18,8 +18,43 @@ namespace AutomobileTn.Utils
 				car.Price = GetPriceFromDescription(car.Description);
 			}
 
+		    carsCollection = GetFormattedModelsCarsCollection(carsCollection);
+
 			return carsCollection;
 		}
+
+        /// <summary>
+        /// Removes the Manufacturer name from the Model name of each car.
+        /// </summary>
+        /// <param name="cars"></param>
+        /// <returns></returns>
+	    private static List<Car> GetFormattedModelsCarsCollection(List<Car> cars)
+	    {
+	        foreach (var car in cars)
+	        {
+	            if (car.Manifacturer == "Skoda Octavia")
+	            {
+	                car.Manifacturer = "Skoda";
+	                car.Model = "Octavia";
+	            }
+                if (car.Manifacturer == "Skoda Rapid")
+                {
+                    car.Manifacturer = "Skoda";
+                    car.Model = "Rapid";
+                }
+                if (car.Manifacturer == "Mercedes")
+                {
+                    //car.Manifacturer = "Skoda";
+                    car.Model = car.Model.Replace("Mercedes-Benz", "");
+                }
+                //if (car.Model.Contains(car.Manifacturer))
+                //{
+                //    car.Model = car.Model.Replace(car.Manifacturer, "");
+                //}
+            }
+
+	        return cars;
+	    } 
 
 		private static int GetPriceFromDescription(string carDescription)
 		{

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using AutomobileTn.Utils;
 
 namespace AutomobileTn.ViewModels
 {
@@ -42,12 +44,16 @@ namespace AutomobileTn.ViewModels
             }
         }
 
+        public ICommand RefreshCommand { get; set; }
+
         public TweetsViewModel()
 		{
-			DowloadDataAsync();
+            RefreshCommand = new RelayCommand(async () => await DownloadDataAsync());
+
+            DownloadDataAsync();
 		}
 
-		private async Task DowloadDataAsync()
+		private async Task DownloadDataAsync()
 		{
 		    IsBusy = true;
 
