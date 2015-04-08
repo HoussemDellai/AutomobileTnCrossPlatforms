@@ -14,10 +14,10 @@ namespace AutomobileTn.Views {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class SearchCarsView : ContentPage {
+    public partial class CarsView : ContentPage {
         
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(SearchCarsView));
+            this.LoadFromXaml(typeof(CarsView));
         }
     }
 }

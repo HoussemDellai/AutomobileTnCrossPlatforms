@@ -21,7 +21,7 @@ namespace AutomobileTn
                 BackgroundColor = Color.White,
             };
 
-            tabbedPage.Children.Add(new SearchCarsView());
+            tabbedPage.Children.Add(new CarsView());
             tabbedPage.Children.Add(new TweetsView());
             tabbedPage.Children.Add(new VideosView());
             tabbedPage.Children.Add(new SearchView());

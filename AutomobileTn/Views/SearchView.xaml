@@ -19,7 +19,8 @@
     </ResourceDictionary>
   </ContentPage.Resources>
 
-  <StackLayout Orientation="Vertical">
+  <StackLayout Orientation="Vertical"
+               >
     <Grid HeightRequest="60">
       <Grid.ColumnDefinitions>
         <ColumnDefinition Width="73*"/>
@@ -30,13 +31,27 @@
               Grid.Column="0"
               Maximum="10"
               Minimum="1"
-              VerticalOptions="Center" />
+              VerticalOptions="Center" >
+        <!--<Slider.BackgroundColor>
+          <OnPlatform x:TypeArguments="Color"
+												      iOS="Transparent"
+												      Android="Transparent"
+												      WinPhone="Navy"/>
+        </Slider.BackgroundColor>-->
+        </Slider>
 
       <Label x:Name="PriceLabel"
              Text="0 DT"
              Grid.Column="1"
-             Font="Large"
-             VerticalOptions="Center" />
+             VerticalOptions="Center" >
+        <Label.Font>
+          <OnPlatform x:TypeArguments="Font"
+											iOS="Medium"
+											Android="Large"
+											WinPhone="Medium"/>
+        </Label.Font>
+      
+    </Label>
     </Grid>
 
     <ListView ItemsSource="{Binding FilteredCarsCollection}"
