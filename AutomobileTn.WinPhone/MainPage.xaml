@@ -11,6 +11,16 @@
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
-    SupportedOrientations="Portrait" Orientation="Portrait"
-    shell:SystemTray.IsVisible="True">
+    SupportedOrientations="Portrait" 
+    Orientation="Portrait"
+    shell:SystemTray.IsVisible="True"
+    shell:SystemTray.BackgroundColor="Transparent"
+    shell:SystemTray.ForegroundColor="DarkRed">
+
+    <winPhone:FormsApplicationPage.ApplicationBar>
+        <shell:ApplicationBar BackgroundColor="LightGray" 
+                              ForegroundColor="DarkRed" 
+                              Opacity="0.8"/>
+    </winPhone:FormsApplicationPage.ApplicationBar>
+    
 </winPhone:FormsApplicationPage>

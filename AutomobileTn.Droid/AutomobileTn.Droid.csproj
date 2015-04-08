@@ -98,6 +98,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\twitter.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\refresh.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\twitter.png" />
+    <AndroidResource Include="Resources\Values\Styles.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AutomobileTn\AutomobileTn.csproj">

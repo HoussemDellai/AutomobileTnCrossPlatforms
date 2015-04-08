@@ -66,8 +66,8 @@ namespace AutomobileTn.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int SampleVideoView = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int SampleVideoView = 2131034112;
 			
 			static Id()
 			{
@@ -91,6 +91,22 @@ namespace AutomobileTn.Droid
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int MyTheme = 2130968576;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--http://forums.xamarin.com/discussion/18290/hiding-the-status-bar-and-the-action-bar-in-android-app-->
+<resources>
+  <style name="MyTheme" 
+         parent="@android:Theme.Holo">
+    <item name="android:windowFullscreen">false-</item>
+  </style>
+</resources>
