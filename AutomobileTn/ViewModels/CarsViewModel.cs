@@ -31,6 +31,32 @@ namespace AutomobileTn.ViewModels
             }
         }
 
+        private List<Car> _filteredCarsCollection;
+        public List<Car> FilteredCarsCollection
+        {
+            get
+            { return _filteredCarsCollection; }
+            set
+            {
+                _filteredCarsCollection = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string _searchedKeyword = string.Empty;
+        public string SearchedKeyword
+        {
+            get
+            {
+                return _searchedKeyword;
+            }
+            set
+            {
+                _searchedKeyword = value;
+                OnPropertyChanged();
+            }
+        }
+
         private ObservableCollection<Grouping<string, Car>> _carsGrouped;
         public ObservableCollection<Grouping<string, Car>> CarsGrouped
         {
@@ -59,6 +85,17 @@ namespace AutomobileTn.ViewModels
             }
         }
 
+        public RelayCommandGeneric<string> FilterCarsCollectionCommand
+        {
+            get
+            {
+                return new RelayCommandGeneric<string>(filter =>
+                {
+                    FilteredCarsCollection = CarsList.Where(car => car.Manifacturer == filter).ToList();
+                });
+            }
+        }
+
         public ICommand RefreshCommand { get; set; }
         
         public CarsViewModel()
@@ -73,6 +110,7 @@ namespace AutomobileTn.ViewModels
             IsBusy = true;
 
             var dataServices = new CarsServices();
+
             var carsList = await dataServices.GetCarsCollectionAsync();
 
             var cars = CarsFormatter.GetFormattedCarsCollection(carsList);

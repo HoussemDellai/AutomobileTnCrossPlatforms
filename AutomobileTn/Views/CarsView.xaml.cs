@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace AutomobileTn.Views
 {
-    public partial class CarsView : ContentPage
+    public partial class SearchCarsView : ContentPage
     {
-        public CarsView()
+        public SearchCarsView()
         {
             InitializeComponent();
 

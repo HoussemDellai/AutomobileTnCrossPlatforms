@@ -11,6 +11,7 @@ E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Relea
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Xamarin.Forms.Xaml.dll
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Newtonsoft.Json.dll
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\AutomobileTn.pdb
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\AutomobileTn.dll.mdb
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Xamarin.Forms.Core.xml
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Xamarin.Forms.Xaml.xml
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Newtonsoft.Json.xml
@@ -18,11 +19,16 @@ E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Relea
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\AutomobileTn.Droid.dll
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\AutomobileTn.Droid.pdb
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\android\bin\AutomobileTn.Droid.apk
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\layout\videoplayerlayout.xml
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable\icon.png
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-hdpi\icon.png
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xhdpi\icon.png
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xxhdpi\icon.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-hdpi\refresh.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-hdpi\twitter.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xhdpi\refresh.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xhdpi\twitter.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xxhdpi\refresh.png
+E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xxhdpi\twitter.png
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\R.cs.flag
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\uploadflags.txt
-E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\AutomobileTn.dll.mdb
-E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\layout\videoplayerlayout.xml

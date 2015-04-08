@@ -14,19 +14,6 @@ namespace AutomobileTn
         {
             // The root page of your application
 
-            //var mainViewModel = new MainViewModel();
-
-            //var refresh = new ToolbarItem
-            //{
-            //    Icon = "ic_share.png",
-            //    Text = "Refresh",
-            //    Command = new Command(() =>
-            //    {
-            //        mainViewModel.RefreshCommand.Execute(null);
-            //    })
-            //};
-            //ToolbarItems.Add(refresh);
-
             //var tabbedPage = new CarouselPage
             var tabbedPage = new TabbedPage
             {
@@ -34,30 +21,14 @@ namespace AutomobileTn
                 BackgroundColor = Color.White,
             };
 
-            //tabbedPage.Children.Add(new Page1());
-            tabbedPage.Children.Add(new CarsView());
+            tabbedPage.Children.Add(new SearchCarsView());
             tabbedPage.Children.Add(new TweetsView());
             tabbedPage.Children.Add(new VideosView());
+            //tabbedPage.Children.Add(new SearchView());
 
-            var np = new NavigationPage(tabbedPage);
+            var navigationPage = new NavigationPage(tabbedPage);
 
-            MainPage = np;
-
-            //MainPage = new MainView();
-
-            //MainPage = new ContentPage
-            //{
-            //	Content = new StackLayout
-            //	{
-            //		VerticalOptions = LayoutOptions.Center,
-            //		Children = {
-            //			new Label {
-            //				XAlign = TextAlignment.Center,
-            //				Text = "Welcome to Xamarin Forms!"
-            //			}
-            //		}
-            //	}
-            //};
+            MainPage = navigationPage;
         }
 
         protected override void OnStart()

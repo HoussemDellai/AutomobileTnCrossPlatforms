@@ -57,6 +57,9 @@
     <Compile Include="Views\CarsView.xaml.cs">
       <DependentUpon>CarsView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\SearchView.xaml.cs">
+      <DependentUpon>SearchView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\TweetsView.xaml.cs">
       <DependentUpon>TweetsView.xaml</DependentUpon>
     </Compile>
@@ -119,6 +122,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\VideoPlayerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\SearchView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
