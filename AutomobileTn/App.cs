@@ -24,7 +24,7 @@ namespace AutomobileTn
             tabbedPage.Children.Add(new SearchCarsView());
             tabbedPage.Children.Add(new TweetsView());
             tabbedPage.Children.Add(new VideosView());
-            //tabbedPage.Children.Add(new SearchView());
+            tabbedPage.Children.Add(new SearchView());
 
             var navigationPage = new NavigationPage(tabbedPage);
 

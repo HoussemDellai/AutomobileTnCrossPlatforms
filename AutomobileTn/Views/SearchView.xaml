@@ -20,20 +20,27 @@
   </ContentPage.Resources>
 
   <StackLayout Orientation="Vertical">
-    <Slider x:Name="PriceSlider"
-            Value="{Binding SearchedPrice, Mode=TwoWay}"
-            TranslationY="20"
-            Maximum="10"
-            Minimum="1"
-            />
+    <Grid HeightRequest="60">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="73*"/>
+        <ColumnDefinition Width="27*"/>
+      </Grid.ColumnDefinitions>
 
-    <!--
-    
-    TranslationY="20"-->
+      <Slider x:Name="PriceSlider"
+              Grid.Column="0"
+              Maximum="10"
+              Minimum="1"
+              VerticalOptions="Center" />
+
+      <Label x:Name="PriceLabel"
+             Text="0 DT"
+             Grid.Column="1"
+             Font="Large"
+             VerticalOptions="Center" />
+    </Grid>
 
     <ListView ItemsSource="{Binding FilteredCarsCollection}"
-              HasUnevenRows="True"
-              TranslationY="40">
+              HasUnevenRows="True" >
 
       <ListView.ItemTemplate>
         <DataTemplate>

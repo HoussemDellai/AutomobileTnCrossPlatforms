@@ -14,6 +14,9 @@ using System.Windows.Input;
 
 namespace AutomobileTn.ViewModels
 {
+    /// <summary>
+    /// ViewModel used to display cars on the CarsView page and SearchView page.
+    /// </summary>
     public class CarsViewModel : INotifyPropertyChanged
     {
 
@@ -82,6 +85,33 @@ namespace AutomobileTn.ViewModels
             {
                 _isBusy = value;
                 OnPropertyChanged();
+            }
+        }
+
+
+        private ICommand _filterCarsByPriceCommand;
+        public ICommand FilterCarsByPriceCommand
+        {
+            get
+            {
+                if (_filterCarsByPriceCommand == null)
+                {
+                    _filterCarsByPriceCommand = new RelayCommandGeneric<int>(price =>
+                    {
+
+                        if (_carsList == null)
+                        {
+                            return;
+                        }
+
+                        var priceMarge = price / 10;
+
+                        FilteredCarsCollection =
+                            _carsList.Where(car => car.Price >= price - priceMarge
+                                                   && car.Price <= price + priceMarge).ToList();
+                    });
+                }
+                return _filterCarsByPriceCommand;
             }
         }
 

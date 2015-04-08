@@ -22,10 +22,15 @@ namespace AutomobileTn.Views
             PriceSlider.ValueChanged += PriceSliderOnValueChanged;
         }
 
-        private void PriceSliderOnValueChanged(object sender, ValueChangedEventArgs valueChangedEventArgs)
+        private void PriceSliderOnValueChanged(object sender, ValueChangedEventArgs e)
         {
-            //PriceSlider.BackgroundColor = Color.Maroon;
-            _carsViewModel.FilterCarsCollectionCommand.Execute("BMW");//valueChangedEventArgs.NewValue);
+            var value = e.NewValue;
+
+            var price = (int) value * 34000;
+
+            PriceLabel.Text = price + " DT";
+
+            _carsViewModel.FilterCarsByPriceCommand.Execute(price);
         }
     }
 }
