@@ -57,11 +57,11 @@
               </Grid.ColumnDefinitions>
 
               <Image Source="{Binding Manifacturer, Converter={StaticResource StringToImageUrlConverter}}"
-								   Aspect="AspectFill"
-								   Grid.Row="0"
-								   Grid.Column="1"
-								   VerticalOptions="Start"
-								   HorizontalOptions="End"/>
+								     Aspect="AspectFill"
+								     Grid.Row="0"
+								     Grid.Column="1"
+								     VerticalOptions="Start"
+								     HorizontalOptions="End"/>
 
               <Image Source="{Binding ImageUrl}"
 								     Grid.Row="0"
@@ -70,18 +70,18 @@
 								     Aspect="AspectFill">
                 <Image.TranslationY>
                   <OnPlatform x:TypeArguments="x:Double"
-												iOS="0"
-												Android="0"
-												WinPhone="8"/>
+												      iOS="0"
+												      Android="0"
+												      WinPhone="8"/>
                 </Image.TranslationY>
 
               </Image>
 
               <Label Text="{Binding Model}"
-								   Grid.Row="0"
-								   Grid.Column="1"
-                   TextColor="{StaticResource darkColor}"
-                   HorizontalOptions="End">
+								     Grid.Row="0"
+								     Grid.Column="1"
+                     TextColor="{StaticResource darkColor}"
+                     HorizontalOptions="End">
                 <Label.FontSize>
                   <OnPlatform x:TypeArguments="x:Double"
 												iOS="40"
