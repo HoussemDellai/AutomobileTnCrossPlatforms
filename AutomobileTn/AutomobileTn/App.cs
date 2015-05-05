@@ -13,7 +13,6 @@ namespace AutomobileTn
         public App()
         {
             // The root page of your application
-
             //var tabbedPage = new CarouselPage
             var tabbedPage = new TabbedPage
             {
