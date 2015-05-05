@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:AutomobileTn.Converters;assembly=AutomobileTn"
+             x:Class="AutomobileTn.Views.SearchView"
+             Title="Search">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+
+      <Color x:Key="redColor">#FFD90000</Color>
+      <Color x:Key="firstColor">#FFFFFFFF</Color>
+      <Color x:Key="darkColor">#FF686868</Color>
+
+      <converters:IntToPriceConverter x:Key="IntToPriceConverter" />
+      <converters:StringToImageUrlConverter x:Key="StringToImageUrlConverter" />
+      <converters:IntToCentsPriceConverter x:Key="IntToCentsPriceConverter" />
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <StackLayout Orientation="Vertical"
+               >
+    <Grid HeightRequest="60">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="73*"/>
+        <ColumnDefinition Width="27*"/>
+      </Grid.ColumnDefinitions>
+
+      <Slider x:Name="PriceSlider"
+              Grid.Column="0"
+              Maximum="10"
+              Minimum="1"
+              VerticalOptions="Center" >
+   
+      </Slider>
+
+      <Label x:Name="PriceLabel"
+             Text="0 DT"
+             Grid.Column="1"
+             VerticalOptions="Center" >
+        <Label.Font>
+          <OnPlatform x:TypeArguments="Font"
+											iOS="Medium"
+											Android="Large"
+											WinPhone="Medium"/>
+        </Label.Font>
+
+      </Label>
+    </Grid>
+
+    <ListView ItemsSource="{Binding FilteredCarsCollection}"
+              HasUnevenRows="True" >
+
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Grid Padding="6,12,12,8"
+							    BackgroundColor="{StaticResource firstColor}">
+              <Grid.RowDefinitions>
+                <RowDefinition Height="45"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+
+              <Image Source="{Binding ImageUrl}"
+								     Grid.Row="0"
+								     Grid.RowSpan="2"
+								     Grid.Column="0"
+								     Aspect="AspectFill">
+                <Image.TranslationY>
+                  <OnPlatform x:TypeArguments="x:Double"
+												      iOS="0"
+												      Android="0"
+												      WinPhone="8"/>
+                </Image.TranslationY>
+
+              </Image>
+
+              <Label Text="{Binding Model}"
+								     Grid.Row="0"
+								     Grid.Column="1"
+                     TextColor="{StaticResource darkColor}"
+                     HorizontalOptions="End">
+                <Label.FontSize>
+                  <OnPlatform x:TypeArguments="x:Double"
+												iOS="40"
+												Android="20"
+												WinPhone="30"/>
+                </Label.FontSize>
+
+              </Label>
+
+              <StackLayout Orientation="Horizontal"
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           VerticalOptions="Start"
+                           HorizontalOptions="End">
+                <Label Text="{Binding Price, Converter={StaticResource IntToPriceConverter}}"
+                       Font="Large"
+                       LineBreakMode="TailTruncation"
+                       TextColor="{StaticResource redColor}">
+                  <Label.FontSize>
+                    <OnPlatform x:TypeArguments="x:Double"
+												        iOS="40"
+												        Android="30"
+												        WinPhone="40"/>
+                  </Label.FontSize>
+                </Label>
+
+                <StackLayout Orientation="Vertical">
+                  <Label Text="{Binding Price}"
+                         Font="Medium"
+                         LineBreakMode="TailTruncation"
+                         TextColor="{StaticResource redColor}"
+                         VerticalOptions="Start"
+                         Opacity="0.8">
+                    <!--, Converter={StaticResource IntToCentsPriceConverter}-->
+                    <Label.TranslationY>
+                      <OnPlatform x:TypeArguments="x:Double"
+                                  Android="6"
+                                  WinPhone="6"
+                                  iOS="0"/>
+                    </Label.TranslationY>
+
+                  </Label>
+                  <Label Text="TND"
+                         Font="Micro"
+                         TextColor="{StaticResource redColor}"
+                         TranslationY="-4"
+                         Opacity="0.8"/>
+                </StackLayout>
+              </StackLayout>
+
+            </Grid>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+  </StackLayout>
+
+</ContentPage>
