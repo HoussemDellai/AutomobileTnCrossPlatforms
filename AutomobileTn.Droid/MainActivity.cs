@@ -10,7 +10,7 @@ using Android.OS;
 namespace AutomobileTn.Droid
 {
 	[Activity(Label = "Automobile.Tn", 
-              Icon = "@drawable/icon", 
+              Icon = "@drawable/automobiletn", 
               MainLauncher = true, 
               ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
               Theme = "@style/MyTheme")]

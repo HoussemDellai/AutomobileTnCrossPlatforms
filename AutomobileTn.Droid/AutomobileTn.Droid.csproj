@@ -23,7 +23,7 @@
     <JavaOptions />
     <NuGetPackageImportStamp>348a8b7c</NuGetPackageImportStamp>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -99,6 +99,10 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\refresh.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\twitter.png" />
     <AndroidResource Include="Resources\Values\Styles.xml" />
+    <AndroidResource Include="Resources\drawable\automobiletn.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\automobiletn.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\automobiletn.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\automobiletn.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AutomobileTn\AutomobileTn.csproj">
