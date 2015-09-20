@@ -32,3 +32,42 @@ E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Relea
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xxhdpi\twitter.png
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\R.cs.flag
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\uploadflags.txt
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\AutomobileTn.Droid.dll.config
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\AutomobileTn.Droid.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\AutomobileTn.Droid.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\AutomobileTn.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\FormsViewGroup.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Xamarin.Android.Support.v4.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Xamarin.Forms.Core.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Xamarin.Forms.Platform.Android.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Xamarin.Forms.Xaml.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Newtonsoft.Json.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\AutomobileTn.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\AutomobileTn.dll.mdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Xamarin.Forms.Core.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Xamarin.Forms.Xaml.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\Newtonsoft.Json.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\AutomobileTn.Droid.csprojResolveAssemblyReference.cache
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\AutomobileTn.Droid.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\AutomobileTn.Droid.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\layout\videoplayerlayout.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable\icon.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-hdpi\icon.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xhdpi\icon.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xxhdpi\icon.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-hdpi\refresh.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-hdpi\twitter.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xhdpi\refresh.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xhdpi\twitter.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xxhdpi\refresh.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xxhdpi\twitter.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\values\styles.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\R.cs.flag
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\uploadflags.txt
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\tn.intilaq.automobiletn.apk
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Release\tn.intilaq.automobiletn-Signed.apk
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\android\bin\tn.intilaq.automobiletn.apk
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable\automobiletn.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-hdpi\automobiletn.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xhdpi\automobiletn.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Release\res\drawable-xxhdpi\automobiletn.png

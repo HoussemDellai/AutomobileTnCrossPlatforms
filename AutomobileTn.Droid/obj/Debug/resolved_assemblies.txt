@@ -1,31 +1,42 @@
-E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.dll
-E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Debug\AutomobileTn.dll
-E:\Projects\AutomobileTn.CrossPlatform\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\FormsViewGroup.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.dll
-E:\Projects\AutomobileTn.CrossPlatform\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
-E:\Projects\AutomobileTn.CrossPlatform\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\Xamarin.Forms.Core.dll
-E:\Projects\AutomobileTn.CrossPlatform\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
-E:\Projects\AutomobileTn.CrossPlatform\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Resources.ResourceManager.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.Tasks.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Debug.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ObjectModel.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.Expressions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XDocument.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Globalization.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Extensions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.dll
-E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\Newtonsoft.Json.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Dynamic.Runtime.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Text.Encoding.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.IO.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Text.RegularExpressions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.ReaderWriter.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Serialization.Primitives.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Text.Encoding.Extensions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Extensions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Tools.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\AutomobileTn.Droid.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\AutomobileTn.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\FormsViewGroup.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\Mono.Android.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\mscorlib.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Core.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Runtime.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Xml.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Xml.Linq.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\Xamarin.Forms.Core.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\Xamarin.Forms.Platform.Android.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\Xamarin.Forms.Xaml.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Resources.ResourceManager.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Diagnostics.Debug.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Threading.Tasks.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.ObjectModel.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Collections.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Linq.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Linq.Expressions.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Net.Http.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Xml.XDocument.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Globalization.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Threading.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Runtime.Extensions.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Reflection.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\Newtonsoft.Json.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Dynamic.Runtime.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Text.Encoding.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.IO.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Text.RegularExpressions.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Runtime.Serialization.Primitives.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Runtime.Serialization.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Text.Encoding.Extensions.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Reflection.Extensions.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.Diagnostics.Tools.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\Microsoft.CSharp.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\Mono.CSharp.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.ComponentModel.Composition.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\assemblies\System.ComponentModel.dll

@@ -30,3 +30,35 @@ E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\Gal
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\SearchView.xaml.g.cs
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\AutomobileTn.dll
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\AutomobileTn.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\AutomobileTn.dll.config
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\AutomobileTn.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\AutomobileTn.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\GalaSoft.MvvmLight.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\GalaSoft.MvvmLight.Extras.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\GalaSoft.MvvmLight.Platform.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\Newtonsoft.Json.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\System.Net.Http.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\System.Net.Http.Extensions.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\System.Net.Http.Primitives.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\Xamarin.Forms.Core.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\Xamarin.Forms.Xaml.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\Newtonsoft.Json.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\System.Net.Http.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\System.Net.Http.Extensions.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\System.Net.Http.Primitives.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\Xamarin.Forms.Core.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\Xamarin.Forms.Xaml.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\GalaSoft.MvvmLight.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\GalaSoft.MvvmLight.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\GalaSoft.MvvmLight.Extras.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\GalaSoft.MvvmLight.Extras.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\bin\Release\GalaSoft.MvvmLight.Platform.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\AutomobileTn.csproj.App.config
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\AutomobileTn.csprojResolveAssemblyReference.cache
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\CarsView.xaml.g.cs
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\TweetsView.xaml.g.cs
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\VideosView.xaml.g.cs
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\VideoPlayerView.xaml.g.cs
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\SearchView.xaml.g.cs
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\AutomobileTn.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn\obj\Release\AutomobileTn.pdb

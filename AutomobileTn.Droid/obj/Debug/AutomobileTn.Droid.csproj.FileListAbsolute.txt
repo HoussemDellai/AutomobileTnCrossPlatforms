@@ -35,3 +35,38 @@ E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xxhdpi\refresh.png
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xxhdpi\twitter.png
 E:\Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\values\styles.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\AutomobileTn.Droid.csprojResolveAssemblyReference.cache
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\AutomobileTn.Droid.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\AutomobileTn.Droid.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.dll.config
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid.apk
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.Droid-Signed.apk
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\FormsViewGroup.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\Xamarin.Forms.Core.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\Newtonsoft.Json.dll
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.pdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\AutomobileTn.dll.mdb
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\Xamarin.Forms.Core.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\bin\Debug\Newtonsoft.Json.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\android\bin\AutomobileTn.Droid.apk
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\layout\videoplayerlayout.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable\icon.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-hdpi\icon.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-hdpi\refresh.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-hdpi\twitter.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xhdpi\refresh.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xhdpi\twitter.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xxhdpi\refresh.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\drawable-xxhdpi\twitter.png
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\res\values\styles.xml
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\R.cs.flag
+D:\VSO Projects\AutomobileTn.CrossPlatform\AutomobileTn\AutomobileTn.Droid\obj\Debug\uploadflags.txt

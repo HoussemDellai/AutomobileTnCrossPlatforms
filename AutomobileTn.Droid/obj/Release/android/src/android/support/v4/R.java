@@ -16,9 +16,12 @@ public final class R {
         public static int twitter=0x7f020002;
     }
     public static final class id {
-        public static int SampleVideoView=0x7f040000;
+        public static int SampleVideoView=0x7f050000;
     }
     public static final class layout {
         public static int videoplayerlayout=0x7f030000;
+    }
+    public static final class style {
+        public static int MyTheme=0x7f040000;
     }
 }

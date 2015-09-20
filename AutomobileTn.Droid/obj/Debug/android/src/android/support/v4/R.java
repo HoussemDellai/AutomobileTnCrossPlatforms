@@ -12,5 +12,16 @@ public final class R {
     }
     public static final class drawable {
         public static int icon=0x7f020000;
+        public static int refresh=0x7f020001;
+        public static int twitter=0x7f020002;
+    }
+    public static final class id {
+        public static int SampleVideoView=0x7f050000;
+    }
+    public static final class layout {
+        public static int videoplayerlayout=0x7f030000;
+    }
+    public static final class style {
+        public static int MyTheme=0x7f040000;
     }
 }
